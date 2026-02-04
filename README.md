@@ -9,11 +9,24 @@
 
 ## 1. Análisis inicial del sistema y parámetros de rendimiento
 ### 1.1 Servicios de acceso al CRM
-- Descripción:
+- Descripción: 
+  - Acceso al ERP/CRM (aplicacion web): contendor odoo-dev (Odoo 18)
+  - El servicio de base de datos: contenedor postgres-dev (PostgrSQL 16)
+  - Servicio de publicación de puerto / acceso web: Docker publica 8069/tcp 
+  - Red y DNS del sistema: interfaz la IP 192.168.1.43
+  - Acceso administrativo remoto: SSH en 22/tcp para tareas de soporte.
 - Evidencias: evidencias/01_analisis/
 
 ### 1.2 Parámetros (CPU / RAM / Disco / Red) y relación con CRM+BD
-- Conclusiones:
+
+- CPU ~ 95,8% idle, load average: 0,47, 0,43, 0,41
+- Conclusiones: No hay saturación de CPU.
+
+- RAM 4,8Gi total;  756Mi usado;  3,3Gi libre
+- Conclusiones: Hay suficiente memoria, no hay presión ahora mismo con la RAM. 
+
+- Disco: /dev/sda2   tamaño:25G  usado:12G (52%)
+- Conclusiones: No hay problema de capacidad por ahora.
 
 ---
 
