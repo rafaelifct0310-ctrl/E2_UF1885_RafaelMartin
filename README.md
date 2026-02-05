@@ -47,10 +47,23 @@
 
 ## 3. Resolución de una incidencia técnica simulada
 ### 3.1 Síntomas
+- Los usuarios no pueden aceder al CRM
+- La URL del servicio no responde.
 ### 3.2 Diagnóstico
+- Verificar el estado de los contenedores (docker ps)
+- El contenedor odoo-dev-PPF no se encuetra en ejecución
 ### 3.3 Acción aplicada
+- Se procede a restablecer el servicio de contenedor, arrancando nuevamente
+  ```
+  sudo docker start odoo-dev-PPF
+  ```
 ### 3.4 Verificación
+- Verificar estado del contenedor
+  ```
+  sudo docker ps
+  ```
 ### 3.5 Rollback
+- En esta situación consiste en arrancar el contenedor como se indica en la acción aplicada
 
 ---
 
