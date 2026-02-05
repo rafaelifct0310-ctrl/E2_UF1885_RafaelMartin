@@ -33,15 +33,12 @@
 ## 2. Monitorización de procesos y detección de sobrecarga
 ### 2.1 Proceso problemático detectado
 - Proceso/servicio:
-  - Contenedor postgres-dev-PPF (PostgrSQL servicio BBDD ERP/CRM)
-  - Proceso interno forzado por el sistema: yes > /dev/null & (generador de carga de CPU)
+  - Contenedor postgres-dev-PPF (servicio PostgreSQL para ERP/CRM)
+  - Proceso interno forzado: yes > /dev/null & (generador carga CPU)
 - Datos y justificación:
-  - %CPU : Contenedor Postgres-dev-PPF (1256.16%)
-  - Consumo de memoria bajo (164.5MiB/10.69GiB)
-  - Saturación se produce a nivel del CPU 
+  - CPU % (postgres-dev-PPF):  1256.16%, indica saturación del core.
+  - Consumo de memoria bajo ( 
 - Impacto en el CRM:
-  - Lentitud extrema en operaciones que dependen de la base de datos.
-  - Usuarios perciben bloqueos y esperas prolongadas.
 
 ---
 
