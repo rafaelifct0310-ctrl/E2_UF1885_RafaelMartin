@@ -78,13 +78,12 @@
   - Antes de la simulación el sistema disponia de 4.5Gi de memoria libre. Tras la simulación, la memoria utilizada aumentó a 8.4Gi, el sistema no ha llegado a nivel crítico, pero si un escenario de 
   riesgo.; 
 - Verificación requisitos HW/SW:
-  El sistema cuenta con 10 GiB RAM y no tiene swap configurada.
-  Para entornos ERP/CRM con carga recurrente, esta configuración puede ser insuficiente en picos de
-  consumo de memoria.
-     Aumentar memoria RAM disponible, o
-     configurar swap como medida preventiva
+  - El sistema cuenta con 10 GiB RAM y no tiene swap configurada.
+  - Para entornos ERP/CRM con carga recurrente, esta configuración puede ser insuficiente en picos de consumo de memoria.
+     - Aumentar memoria RAM disponible, o
+     - configurar swap como medida preventiva
 - Registro:
-  La simulación se realizó de forma controlada y reversible sin perdida de datos.
+  - La simulación se realizó de forma controlada y reversible sin perdida de datos.
 
 ---
 
