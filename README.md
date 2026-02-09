@@ -72,11 +72,10 @@
   Simulación saturación de memoria RAM mediante ejecución de un proceso que consume gran cantidad de memoria,
   provocando una reducción importante de la memoria libre
 - Datos capturados:
-  free -h -> antes y despues de la simulación
-  vmstat 1 5 -> antes y despues de la simulación 
+  - free -h -> antes y despues de la simulación
+  - vmstat 1 5 -> antes y despues de la simulación 
 - Análisis:
-  Antes de la simulación el sistema disponia de 4.5Gi de memoria libre. Tras la simulación,
-  la memoria utilizada aumentó a 8.4Gi, el sistema no ha llegado a nivel crítico, pero si un escenario de 
+  - Antes de la simulación el sistema disponia de 4.5Gi de memoria libre. Tras la simulación, la memoria utilizada aumentó a 8.4Gi, el sistema no ha llegado a nivel crítico, pero si un escenario de 
   riesgo.; 
 - Verificación requisitos HW/SW:
   El sistema cuenta con 10 GiB RAM y no tiene swap configurada.
