@@ -86,9 +86,9 @@
 ## 5. Documentación y registro técnico
 ### 5.1 Incidencias detectadas / Acciones / Resultados
 ### 5.2 Interpretación de documentación en inglés (monitorización / rendimiento / administración CRM)
-- Fragmento 1 (EN):
+- Fragmento 1 (EN): “Docker provides built-in commands to monitor container resource usage, including CPU, memory, and network I/O, which helps identify performance bottlenecks.”
+- Interpretación (ES): Docker proporciona comandos integrados que permiten monitorizar el uso de recursos de los contenedores, como CPU y memoria, lo que facilita la identificación de cuellos de botella que pueden afectar al rendimiento del sistema ERP-CRM.
+- Fragmento 2 (EN): “High memory usage can significantly impact application performance, potentially leading to slower response times or service instability.”
 - Interpretación (ES):
-- Fragmento 2 (EN):
-- Interpretación (ES):
-- Fragmento 3 (EN):
+- Fragmento 3 (EN): “Odoo performance issues are often related to system resource constraints, background jobs, or database load, making monitoring and proper sizing essential.”
 - Interpretación (ES):
